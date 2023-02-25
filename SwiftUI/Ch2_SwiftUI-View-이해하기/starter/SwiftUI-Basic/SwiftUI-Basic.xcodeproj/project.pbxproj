@@ -14,9 +14,9 @@
 		94F824AE2838CDE6002DAB06 /* SwiftUI_BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F824AD2838CDE6002DAB06 /* SwiftUI_BasicTests.swift */; };
 		94F824B82838CDE6002DAB06 /* SwiftUI_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F824B72838CDE6002DAB06 /* SwiftUI_BasicUITests.swift */; };
 		94F824BA2838CDE6002DAB06 /* SwiftUI_BasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F824B92838CDE6002DAB06 /* SwiftUI_BasicUITestsLaunchTests.swift */; };
-		ECC1183A29A89486001950FE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1183929A89486001950FE /* TextView.swift */; };
-		ECC1183C29A894CB001950FE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1183B29A894CB001950FE /* ButtonView.swift */; };
-		ECC1183E29A894FE001950FE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1183D29A894FE001950FE /* ImageView.swift */; };
+		94F824C72838CE3A002DAB06 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F824C62838CE3A002DAB06 /* TextView.swift */; };
+		94F824C92838CE86002DAB06 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F824C82838CE86002DAB06 /* ButtonView.swift */; };
+		94F824CB2838CED6002DAB06 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F824CA2838CED6002DAB06 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +47,9 @@
 		94F824B32838CDE6002DAB06 /* SwiftUI-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F824B72838CDE6002DAB06 /* SwiftUI_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicUITests.swift; sourceTree = "<group>"; };
 		94F824B92838CDE6002DAB06 /* SwiftUI_BasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ECC1183929A89486001950FE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		ECC1183B29A894CB001950FE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		ECC1183D29A894FE001950FE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		94F824C62838CE3A002DAB06 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		94F824C82838CE86002DAB06 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		94F824CA2838CED6002DAB06 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +102,9 @@
 			children = (
 				94F8249C2838CDE6002DAB06 /* SwiftUI_BasicApp.swift */,
 				94F8249E2838CDE6002DAB06 /* ContentView.swift */,
-				ECC1183929A89486001950FE /* TextView.swift */,
-				ECC1183B29A894CB001950FE /* ButtonView.swift */,
-				ECC1183D29A894FE001950FE /* ImageView.swift */,
+				94F824C62838CE3A002DAB06 /* TextView.swift */,
+				94F824C82838CE86002DAB06 /* ButtonView.swift */,
+				94F824CA2838CED6002DAB06 /* ImageView.swift */,
 				94F824A02838CDE6002DAB06 /* Assets.xcassets */,
 				94F824A22838CDE6002DAB06 /* Preview Content */,
 			);
@@ -266,10 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC1183E29A894FE001950FE /* ImageView.swift in Sources */,
-				ECC1183A29A89486001950FE /* TextView.swift in Sources */,
+				94F824CB2838CED6002DAB06 /* ImageView.swift in Sources */,
+				94F824C72838CE3A002DAB06 /* TextView.swift in Sources */,
 				94F8249F2838CDE6002DAB06 /* ContentView.swift in Sources */,
-				ECC1183C29A894CB001950FE /* ButtonView.swift in Sources */,
+				94F824C92838CE86002DAB06 /* ButtonView.swift in Sources */,
 				94F8249D2838CDE6002DAB06 /* SwiftUI_BasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,14 +2,15 @@
 //  TextView.swift
 //  SwiftUI-Basic
 //
-//  Created by 승찬 on 2023/02/24.
+//  Created by joonwon lee on 2022/05/21.
 //
 
 import SwiftUI
 
 struct TextView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("SwiftUI")
+            .font(.system(size: 40, weight: .bold, design: .default))
     }
 }
 
