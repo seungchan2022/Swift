@@ -28,6 +28,7 @@ struct StockDetailView: View {
 
 struct StockDetailView_Previews: PreviewProvider {
     static var previews: some View {
+        // @binding으로 묶은 데이터를 임의로 보여주기 위해서 .constant사용
         StockDetailView(stock: .constant(StockModel.list[0]))
             .preferredColorScheme(.dark)
     }
