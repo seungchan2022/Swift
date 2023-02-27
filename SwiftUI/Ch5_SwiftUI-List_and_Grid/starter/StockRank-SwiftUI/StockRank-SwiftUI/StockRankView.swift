@@ -19,7 +19,7 @@ struct StockRankView: View {
                 .listRowSeparator(.hidden)
                 .frame(height: 80)
         }
-        .listStyle(.plain)
+        .listStyle(.plain)      // custom 스타일로 
         .background(.black)
     }
 }
