@@ -22,6 +22,7 @@ class FrameworkDetailViewController: UIViewController {
         updateUI()
     }
     
+    // 데이터가 업데이트 되는것을 함수를 만들어서 
     func updateUI() {
         imageView.image = UIImage(named: framework.imageName)
         nameLabel.text = framework.name
