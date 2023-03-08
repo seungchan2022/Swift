@@ -32,7 +32,7 @@ final class NetworkService {
         session = URLSession(configuration: configuration)
     }
     
-    // 깃헙서버에서 사용자 프로필을 받아오는 함수를 만듬, Result<성공 케이스, 실패 케이스>
+    // 깃헙서버에서 사용자 프로필을 받아오는 함수를 만듬, Publisher<아웃풋타입, 에러타입> 
     func fetchProfile(userName: String) -> AnyPublisher<GithubProfile, Error> {
         
         let url = URL(string: "https://api.github.com/users/\(userName)")!
