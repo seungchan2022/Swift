@@ -28,6 +28,7 @@ struct StockRankDetatilView: View {
 
 struct StockRankDetatilView_Previews: PreviewProvider {
     static var previews: some View {
+        // @Binding으로 묶은 데이터를 임의로 보여주기 위해서 .constant사용
         StockRankDetatilView(stock: .constant( StockModel.list[0]))
             .preferredColorScheme(.dark)
     }
