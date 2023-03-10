@@ -16,7 +16,7 @@ struct StockRankView: View {
             List($list) { $item in
                 ZStack {
                     NavigationLink {
-                        // 클릭했을때 들어갈 대상
+                        // 클릭했을때 들어갈 대상 View
                         StockRankDetatilView(stock: $item)
                     } label: {
                         EmptyView()
@@ -38,3 +38,10 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
     }
 }
+
+// # TL;DR
+// - `NavigationView`  이용해서 네비게이션뷰 + 컨트롤러 표현
+//     - `NavigationView` 가 감싸는 View에 `navigationTitle` 지정하기
+// - 네비게이션 push 를 구현하기 위해서 (상세뷰로 들어가기)
+//     - `NavigationLink` 이용
+//     - destination View 제작하기
