@@ -13,6 +13,7 @@ struct StockRankView: View {
     
     var body: some View {
         
+        // 셀을 재사용하여 리스트 표현할시 List
         List(list, id: \.self) { stock in
             StockRankRow(stock: stock)
                 .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
