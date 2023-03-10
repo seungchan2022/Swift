@@ -57,3 +57,17 @@ struct StockRankRow_Previews: PreviewProvider {
         StockRankRow(stock: StockModel.list[2])
     }
 }
+
+
+// # TL;DR
+
+// - 리스트 표현시, `List` 사용
+//     - 사용시 고려사항
+//         - style
+//         - separator
+//         - inset
+// - 작업 순서
+//     - ListCell(Row) 먼저 만들고 → List 구현
+// - 리스트에 사용되는 모델 이용시 알아두면 좋은 팁
+//     - `Identifiable` 을 해당 모델이 conform 하고 있으면
+//     - `List`, `ForEach` 사용시, id를 따로 지정해주지 않아도 됨
