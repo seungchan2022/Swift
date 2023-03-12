@@ -61,3 +61,18 @@ struct ContentView_Previews: PreviewProvider {
         FrameworkListView()
     }
 }
+
+
+// # TL;DR
+
+// - 모달 띄울때
+//     - `.sheet(isPresented: Binding<Bool>, content: () -> View)` 이용해서 모달 프레젠팅
+//         - 풀스크린 모달을 원하는 경우, 아래 메소드 사용
+//         - `.fullScreenCover(isPresented: Binding<Bool>, content: () -> View)`
+// - 모달 닫을때
+//     - `@Environment(\.presentationMode) **var** presentationMode: Binding<PresentationMode>` 이용해서 닫을수 있음
+//     - 아래 처럼 `presentationMode`  환경변수의 dismiss 메소드 호출해서 닫음
+        
+//         ```swift
+//         presentationMode.wrappedValue.dismiss()
+//         ```
